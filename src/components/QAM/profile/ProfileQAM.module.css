@@ -1,0 +1,272 @@
+.profileQam{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+    background-color:  #e3effa;
+
+}
+
+.cardPro{
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 25px;
+}
+
+
+.proContainer {
+    width: 100%;
+    position: relative;
+}
+
+
+/* Top */
+.proTop{
+    height: 100%;
+    width: 98%;
+    float: left; /*cho hieenr trij leen tren anrh meenf*/
+}
+
+  .imgTop{
+    width: 98%;
+    height: 330px ;
+    margin-left: 3%;    
+    border-radius: 15px;
+}
+
+
+/* 
+body */
+  .proBody{
+    width: 89%;
+    margin-left: 6.5%;
+    margin-top: -10%;
+    /* margin-bottom: 6%; */
+    border-radius: 15px;
+    background-color: white;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.profileTop{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.profileTop label{
+    margin: 32px 0px 0px 19px;
+    font-weight: bold;   
+    color: #344767;
+    font-size: 23px;
+}
+
+.avt{
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.avatarQAC{
+    color: #fff;
+    display: inline-flex;
+    border-radius: 8px;
+    margin: 20px 0 0 33px;
+
+}
+
+.avatarQAC img{
+    /* width: 100%; */
+    height: 74px;
+    width: 74px;
+    box-shadow: 4px 4px 4px rgb(162, 164, 164);
+    border-radius: 8px;
+
+}
+
+.nameAndDepartment{
+    flex: 0 0 auto;
+    width: auto;
+    margin:20px 0 0 15px;
+}
+
+.showNameAndDep{
+    height: 100%;
+}
+
+.departmentQAC{
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+
+/* boby profile  */
+
+.inforBoby{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* moix been trais phai  */
+
+.inforQam{
+    width: 41%;
+    margin-left: 4%;
+    color: #344767;
+}
+.flatformSetting{
+    margin-top: 8%;
+    
+}
+
+.fTilte{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* trai?\ */
+.account{
+    margin-top: 3%;
+    display: block ;
+}
+.changePass{
+    margin-top: 4%;
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 160px;
+    height: 37px;
+    color:  #ff4081;
+}
+
+.changePass :hover{
+    box-shadow: 0  5px 6px 8px  rgba(249, 144, 144, 0.1);
+    cursor: pointer;
+}
+
+/* phai */
+.flatformSetting i{
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+ 
+
+.QamName{
+    display: block;
+}
+
+.infor{
+    font-size: 14px;
+    margin-top: 4%;
+}
+
+.NameAcc{
+    display: block;
+    margin-top: 7%;
+}
+.informationQAM{
+    display: block;
+}
+
+/* modalEdit */
+.EditProfile {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    width: 65%;
+    height: 500px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.modalEditProfile {
+    display: flex;
+    margin: 4%;
+    list-style: none;
+}
+
+/* Trai */
+.avtEdit{
+    margin-top: 7%;
+}
+
+.imgEditProfile {
+    border-radius: 50%;
+}
+
+.changeAvt{
+    margin: 5% 0 0 12%;
+}
+
+
+/* phai */
+
+.modalEdit {
+    width: 100%;
+    height: 100%;
+    margin-left: 4% ;
+}
+
+.modalName {
+    margin-top: -2%;
+    height: 10%;
+}
+
+.inputModalProfile {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.formEdit{
+    margin-top: 3.5%;
+}
+
+
+.inputModalProfileGender {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+}
+
+
+
+.btnSubmitCancel {
+    display: flex;
+    margin-left: 30%;
+}
+
+.btnSubmit {
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+}
+
+
+@media  (max-width:  63.9375em){
+    .containProfile{
+        margin-top: -4%;
+    }
+    .inforQam{
+        width: 80%;
+    }
+    .flatformSetting{
+        margin-top: 5%;
+    }
+}

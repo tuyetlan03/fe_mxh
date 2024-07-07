@@ -1,0 +1,365 @@
+.qam{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+    background-color: #e3effa;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+.dashboardContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    /* overflow-y: scroll; */
+}
+
+.boxContent{
+    margin-top: 3%;
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: 22.5%;
+    background-color: white ;
+    box-shadow: 4px 4px 4px rgb(162, 164, 164);
+    border-radius: 13px;
+    margin: 1% 0 0 2.3%;
+    font-family:"Roboto",Helvetica,Arial,sans-serif;
+}
+.cardBox{
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+.smallBox{
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    background-image: linear-gradient(195deg,#d352e7,#9a3696);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(64,64,64,.4);
+    text-align: center;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+    position: absolute;
+ }
+ .smallBox img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15%;
+ }
+
+ .smallBox2{
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(64,64,64,.4);
+    background-image: linear-gradient(195deg,#66bb6a,#43a047);
+    text-align: center;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+    position: absolute;
+ }
+ .smallBox2 img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15%;
+ }
+
+ .smallBox3{
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    background-image: linear-gradient(195deg,#ec407a,#d81b60);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(64,64,64,.4);
+    text-align: center;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+    position: absolute;
+ }
+ .smallBox3 img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15%;
+ }
+ .smallBox4{
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    background-image: linear-gradient(195deg,#49a3f1,#1a73e8);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(64,64,64,.4);
+    text-align: center;
+    margin-top: -1.5%;
+    margin-left: 1.5%;
+    position: absolute;
+ }
+ .smallBox4 img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15%;
+ }
+
+
+.textBox{
+    padding-top: 6%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.textBox p{
+    text-transform: capitalize;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.textBox h4{
+    padding-top: -6%;
+    font-weight: 600;
+
+}
+
+
+.footerBox span{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.box hr{
+    background: linear-gradient( 30deg, white,gray, white);
+}
+
+
+/* dashboard */
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboardBox{
+    width: 47.3%;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(162, 164, 164);
+    border-radius: 13px;
+    margin-left: 2.3%;
+    margin-top: 7%;
+}
+
+.cardDashboard{
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+    z-index: 1.5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.chart{
+    display: block;
+}
+
+
+.cardHeaderDb{
+    border-radius: 10px;
+    position: relative;
+    margin-top: -1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.headerBD{
+    border-radius: 10px;
+    background-image: linear-gradient(195deg,#eccfd9,#e19fb8);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4);
+}
+
+
+.cardBodyDb{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    padding: 24px;
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent);
+    border-top: none;
+    height: 1px;
+    margin: 16px 0;
+    opacity: .25;
+}
+.cardBodyDb h6{
+   margin-top: -12px;
+   text-align: center;
+}
+
+
+
+
+
+/* contributors anf realtime*/ 
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.contributors{
+    width: 65%;
+}
+
+.card{
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    width: 95%;
+    height: 500px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+.titleHeader{
+    margin-left: 25px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.titleHeader h2{
+    color: #344767;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.countContributors{
+    margin-top: 2%;
+}
+
+.countContributors i{
+    color: #0e30de;
+}
+
+.countContributors span{
+    color: #7b809a;
+    margin-left: 2%;
+}
+
+.cardBody{
+    width: 90%;
+    margin: auto;
+    padding-top: 2px;
+}
+.header th{
+    border-style: none;
+ }
+
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.countAvt img{
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+}
+
+
+.realtime{
+    width: 34%;
+}
+
+.rtBody li{
+    padding-top: 5%;
+    list-style-type: none
+}
+.imgAcc img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: -10%;
+}
+.timeandname{
+margin-left: 13%;
+margin-top: -45px;
+}
+
+
+@media  (max-width:  63.9375em){
+    .box{
+        width: 47%;
+        /* margin-bottom: 5%; */
+        margin: 1% 1px 5% 2.3%;
+
+}
+.boxContent{
+    margin-top: -1%;
+    margin-left: 8px;
+}
+
+.dashboard{
+    margin-top: 28%;
+}
+
+
+}
+
+@media  (max-width: 46.1875em){
+    .box,
+    .dashboardBox{
+        width: 90%;
+        margin-left: 5%;
+}
+.boxContent{
+    margin-top: -4%;
+}
+
+/* dashboard  */
+.dashboardBox{
+margin-left: 5%;
+margin-top: 5%;
+margin-bottom: 4%;
+}
+
+
+.dashboard{
+    margin-top: 123%;
+    margin-left: 20px;
+
+}
+
+/* .realtime  */
+.contributors{
+    width: 95%;
+    height: 500px;
+    margin-left: 3.5%;
+    margin-bottom: 4%;
+}
+.realtime{
+    width: 95%;
+    margin-left: 3.5%;
+}
+.imgAcc img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: -6%;
+}
+.timeandname{
+margin-left: 8%;
+margin-top: -45px;
+}
+
+.card{
+    margin-left: 16.5px;
+}
+
+
+
+   
+    }

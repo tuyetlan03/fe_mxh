@@ -1,0 +1,42 @@
+.containerBarchart{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    /* width: 330px; */
+    height: 330px;
+    /* position: relative; */
+    padding: 9% 5%;
+}
+
+.containerLinechart{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 330px;
+    /* position: relative; */
+    padding: 9% 5%;
+}
+
+.containerMixchart{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 330px;
+    /* position: relative; */
+    padding-top: 9% ;
+}
+
+.containerPiechart{
+    display: block;
+    box-sizing: border-box;
+    width: 59%;
+    height: 330px;
+    /* position: relative; */
+    margin-left: 15% ;
+    padding-bottom: -2%;
+}
+
+
+
+
+

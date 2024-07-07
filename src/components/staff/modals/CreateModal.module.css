@@ -1,0 +1,319 @@
+.modalCreateIdea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(134, 81, 81, 0.4);
+    z-index: 1;
+}
+
+.modalBodyCreateIdea {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.createIdeaHeader {
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    background-color: #FAE6E6;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid gray;
+}
+
+.createIdea {
+    font-size: 145%;
+    position: absolute;
+    font-size: 145%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.createIdeaContent {
+    position: absolute;
+    width: 100%;
+    height: 24%;
+    margin-top: 18%;
+}
+
+.createIdeaAvt {
+    width: 12%;
+    height: 51%;
+    margin: 5% 0 0 6%;
+    border-radius: 50%;
+}
+
+.avtIdea {
+    width: 99%;
+    height: 95%;
+    margin: -17% 0 0 0%;
+    border-radius: 50%;
+}
+
+.createIdeaName {
+    margin: -12% 0 0 20%;
+}
+
+.dropdownMode {
+    font-size: 14px;
+    margin-left: 19.5%;
+    cursor: pointer;
+}
+
+.dropdown_content {
+    position: absolute;
+    /* box-shadow: 0px 8px 16px 0px #FAE6E6; */
+    z-index: 1;
+    text-align: center;
+    display: flex;
+}
+
+.selectCate {
+    margin: 9% 2% 4% 3%;
+    outline: none;
+}
+
+.dropdownMode:hover .dropdown_content {
+    display: flex;
+}
+
+.addTile {
+    margin: 10% 0 0 6%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.gach {
+    width: 86%;
+    margin: 9% 0 0 6%;
+    background-color: gray;
+}
+
+.createIdeaFooter {
+    position: absolute;
+    width: 100%;
+    height: 58%;
+    margin-top: 42%;
+}
+
+.footerLeft {
+    width: 78%;
+    height: 100%;
+}
+
+.inputIdea {
+    height: 84%;
+}
+
+.inputForm {
+    width: 110%;
+    height: 58%;
+    border: none;
+    outline: none;
+    margin-left: 7%;
+    margin-top: -4%;
+    resize: none;
+}
+
+.addInfor {
+    width: 111%;
+    height: 15%;
+    margin: -26% 0 0 7%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.lbPublic {
+    margin: 2% 0% 0% 3%;
+    display: inline-block;
+}
+
+.lbAno {
+    margin-left: 12%;
+}
+
+.changeColor {
+    margin: -4% 0 0 60%;
+    cursor: pointer;
+}
+
+.imgChange {
+    width: 18%;
+    margin-top: -14%;
+}
+
+.footerLeftIcon {
+    margin: -8% 0 0 82%;
+    cursor: pointer;
+}
+
+.condition {
+    font-size: 96%;
+    padding: 3.5%;
+    margin-left: 4%;
+}
+
+.formTitle {
+    margin: -10% 0 0 47%;
+}
+
+.submitIdea1 {
+    height: 15%;
+    margin-top: 7%;
+}
+
+.submitIdea2 {
+    width: 86%;
+    height: 84%;
+    margin: -8% 0 0 7%;
+    cursor: pointer;
+}
+
+.submitIdea3 {
+    width: 100%;
+    height: 93%;
+    background-color: #d29e9e;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footerRight {
+    margin: -10.5% 0% 0% 78%;
+    width: 0%;
+}
+
+.closeModalCreateIdea {
+    border: none;
+    width: 75px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: #d29e9e;
+    color: white;
+    font-weight: bold;
+}
+
+.fileInput {
+    display: none;
+}
+
+.overlayMessageModal, .overlayConditionModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(168 152 152 / 40%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageModal {
+    height: 211px;
+    background-color: #FAE6E6;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.messageLabel, .conditionLabel {
+    height: 93px;
+    font-size: large;
+    /* color: #d29e9e; */
+    border-radius: 8px 8px 0 0 ;
+    background-color:  #d29e9e;;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.messageContent {
+    /* color: red; */
+    padding: 27px 10px 0 10px;
+}
+
+.messageButton, .condtionButton {
+    height: 50px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    /* border-radius: 8px; */
+    margin-top: -6px;
+}
+
+.messageButtonOk{
+    height: 50px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 0 0 8px 8px;
+    margin-top: 40px;
+}
+
+
+
+.messageButton:hover, .condtionButton:hover, .messageButtonOk:hover {
+    opacity: 1;
+    color: white;
+    background-color: #d29e9e;
+    border-radius:0 0 10px 10px;
+}
+
+.linkCondition {
+    margin-left: 20px;
+    color: blue;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.conditionModal {
+    height: 534px;
+    width: 548px;
+    background-color: #FAE6E6;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.conditionBody {
+    height: 400px
+}
+
+.conditionContent label{
+    margin: 12px 22px 5px 22px;
+    justify-content: center;
+}
+
+.conditionContent li{
+    margin:0  22px;
+    justify-content: center;
+}

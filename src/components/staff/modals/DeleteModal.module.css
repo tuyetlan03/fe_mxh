@@ -1,0 +1,35 @@
+.modalDeleteIdea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(134, 81, 81, 0.4);
+    z-index: 20;
+}
+
+
+.modalContentDeleteIdea {
+    width: 350px;
+    height: 370px;
+    background-color: rgb(253, 235, 235);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgResponsive {
+    max-width: 20%;
+    margin: 10% 5% 4% 4%;
+}
+
+.containerDelete {
+    padding: 20px;
+}
+
+.contextDeleteIdea {
+    margin: 0% 5% 10% 5%;
+}

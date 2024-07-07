@@ -1,0 +1,200 @@
+.qam{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+    background-color: #e3effa;
+    color: #344767;
+    z-index: 1;
+}
+
+/* Phair */
+.qacContainer {
+    width: 100%;
+}
+
+
+/* Boby */
+
+.cardBodyContent{
+    margin-top: -3%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* View */
+
+.bodyBottom{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* ------------list account -Trai------------------ */
+.bottomLeft{
+    width: 65%;
+    height: 560px;
+    position: relative;
+
+}
+.tableResponsive{
+    overflow-x: auto;
+}
+
+.rowth{
+    text-transform: uppercase;
+    color: #212529;
+    font-weight: bolder;
+    opacity: 7;
+}
+
+.rowth2{
+    text-transform: uppercase;
+    color: #212529;
+    font-weight: bolder;
+    opacity: 7;
+    padding-left: 32px;
+}
+
+
+/*--------------- realtime-Phai-------------------- */
+.bottomRight{
+    width: 35%;
+    /* height: 37.5%; */
+}
+
+.card{
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    width: 96.5%;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+  }
+
+.titleHeader{
+    margin-left: 40px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.titleHeader span{
+    color: #344767;
+    font-size: 23px;
+}
+
+.titleHeader h2{
+    color: #344767;
+    font-size: 23px;
+}
+
+
+.countContributors{
+    margin-top: 4%;
+}
+
+.countContributors i{
+    color: #0e30de;
+}
+
+.countContributors span{
+    color: #7b809a;
+    margin-left: 2%;
+}
+
+.cardBody{
+    width: 90%;
+    margin: auto;
+
+}
+.header th{
+    border-style: none;
+ }
+
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.statusOnl{
+    background-image: linear-gradient(195deg,#66bb6a,#43a047);
+    color: white;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    padding: 0.5em 1.5em;
+}
+/* .statusOff{
+    background-image: linear-gradient(195deg,#747b8a,#495361);
+    color: white;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    padding: 0.5em 0.9em;
+} */
+
+
+.realtime{
+    width: 34.5%;
+}
+
+.rtBody li{
+    padding-top: 4%;
+    padding-left: 4%;
+    list-style-type: none
+}
+.imgAcc img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: -9%;
+}
+.timeandname{
+margin-left: 13%;
+margin-top: -45px;
+}
+
+@media (max-width: 739px){
+    .qacContainer {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    ::-webkit-scrollbar {
+        border-radius: 10px;
+      }
+    .bottomLeft{
+        width: 100%;
+        margin-top: -4%;
+        margin-bottom: 4%;
+    }
+    .bottomRight{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 4%;
+    }
+
+    .imgAcc img{
+        margin-left: -5%;
+    }
+    .timeandname{
+    margin-left: 15%;
+    }
+}

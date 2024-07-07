@@ -1,0 +1,180 @@
+.overlayCommentIdea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(134, 81, 81, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalCommentIdea {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(253, 235, 235);
+    border-radius: 10px;
+    /*overflow-y: auto; */
+}
+
+.nameIdea {
+    background-color: white;
+    height: 60px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.commentContainer {
+    position: relative;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.avatarCommentCheck {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closeCommentModal {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.commentModal {
+    padding-top: 1%;
+    display: flex;
+    margin-top: 5px;
+}
+
+.logoAvatarCommentModal {
+    width: 8%;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 3%;
+    margin-left: 2%
+}
+
+.commentAndName {
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.commentName {
+    font-size: 16px;
+    padding: 5px 5px 0 5px;
+}
+
+.commentComment {
+    font-size: 16px;
+    padding: 0 5px 0 5px;
+    font-weight: 100;
+    max-width: 500px;
+}
+
+.commentComment1 {
+    font-size: 10px;
+    padding: 0 5px 0 5px;
+    font-weight: 100;
+}
+
+.logoAvatarComment {
+    width: 6%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.inputModalComment {
+    position: relative;
+    flex: 1;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #e4e4e4;
+    border: none;
+}
+
+.closeComment {
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+}
+
+.checkAnonymous {
+    margin-right: 5px;
+}
+
+.modalCommentCheckbox {
+    width: 100%;
+    position: absolute
+}
+
+.avatarComment {
+    width: 100%;
+    display: flex;
+}
+
+.commentMessage {
+    margin: auto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownToggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    top: 30px;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dropdownMenu a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.dropdownMenu a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block;
+}
+
+.btnidea {
+    background-color: white;
+    border: none;
+}

@@ -1,0 +1,462 @@
+.accountManage{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+    background-color: #e3effa;
+    color: #344767;
+}
+
+/* Phải */
+.adContainer {
+    width: 100%;
+    overflow: auto;
+}
+
+.setEvent button{
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 170px;
+    height: 37px;
+    color:  #ff4081;
+    float: right;
+    margin-right: 54px;
+    margin-top: -20px;
+}
+
+.setEvent button:hover{
+    box-shadow:0  5px 6px 8px  rgba(249, 144, 144, 0.1);
+}
+
+
+.rowAd{
+    width: 98%;
+    margin-left: 20px;
+    display: flex;
+}
+
+.rowAdEvent{
+    width: 95%;
+    /* margin-left: 20px; */
+    margin: auto;
+    display: flex;
+}
+
+.cardAd{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cardTb{
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-top: 39px;
+}
+
+.cardHeader{
+    margin-top: -24px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+
+.cardSmall{
+    padding-top: 24px;
+    padding-bottom: 16px;
+    background-image: linear-gradient(195deg,#ec407a,#d81b60);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4);
+    display: flex;
+    z-index: 0;
+}
+.accountTableTilte{
+    color: #fff;
+    padding-left: 16px;
+    font-size: 20px;
+    width: 86%;
+}
+
+.addUser i{
+color: #fff;
+cursor: pointer;
+}
+
+.cardBodyAd{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    padding: 24px;
+    padding-bottom: 8px;
+}
+
+.tableResponsive{
+    overflow-x: auto;
+}
+
+
+
+.thAccount{
+    font-weight: 700;
+    color: #7b809a;
+    text-transform: uppercase;
+}
+
+.nameAccount{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.nameUser{
+    font-weight: 600;
+    color: #344767;
+}
+
+.emailUser{
+    color: #7b809a;
+}
+
+.row{
+    vertical-align: middle!important;
+    color: #7b809a;
+}
+
+.statusOnl{
+    background-image: linear-gradient(195deg,#66bb6a,#43a047);
+    color: white;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 8px 24px;
+    margin-left: -14px;
+}
+
+.statusOnl_Disable{
+    background-image: linear-gradient(195deg,#66bb6a,#43a047);
+    color: white;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 8px 24px;
+    margin-left: -14px;
+    opacity: 0.3;
+}
+
+.statusOff{
+    background-image: linear-gradient(195deg,#747b8a,#495361);
+    color: white;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 0.5em 0.9em;
+}
+
+
+.btnDisable{
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    color:  #ff4081;
+    margin-top: 4%;
+}
+
+.btnDisable_Disable{
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    color:  #ff4081;
+    margin-top: 4%;
+    opacity: 0.3;
+}
+
+.btnDisable:hover{
+    box-shadow:0  5px 6px 8px  rgba(249, 144, 144, 0.1);
+}
+
+.addModal i{
+    cursor: pointer;
+    /* color:#e3effa ; */
+    margin-left: 20%;
+}
+
+.addModal i:hover{
+  color: #ec407a;
+}
+
+
+
+
+
+/* Modal add account */
+.modalAddEvent {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(143, 106, 106, 0.4);
+    z-index: 1;
+}
+
+.modalBodyAddAccount {
+    width: 450px;
+    height: 520px;
+    background-color: white;    
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.addModalHeader{
+    background-image: linear-gradient(195deg,#ec407a,#d81b60);
+    justify-content: center;
+    display: flex;
+    border-top-left-radius: calc(5px - 1px);
+    border-top-right-radius: calc(5px - 1px);
+    padding: 15px ;
+    border-bottom: 1px solid #dee2e6;
+}
+.addModalHeader h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 29%;
+} 
+.addModalHeader i {
+    color: white;
+    margin: -3% 0 0 -34%;
+}
+
+.addModalBody{
+    display: block;
+    margin-bottom: 21px;
+    border-radius: 3px;
+    padding: 10px 30px;     
+}
+
+.addFormGroup{
+    margin: 20px 0;
+}
+.addModalBody input{
+    height: 40px;
+    padding: 15px 20px;
+    border: 1.5px solid #f1f3f5;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    }
+
+.addFormGroup select{
+    height: 40px;
+    padding-left: 15px;
+    border: 1.5px solid #f1f3f5;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+}
+
+.addModalBody button{
+    background-image: linear-gradient(195deg,#ec407a,#d81b60);
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid  #ff4081;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 340px;
+    height: 45px;
+    font-weight: bold;
+}
+
+
+
+
+/* Modal disable account */
+.modalContentDeleteIdea {
+
+    text-align: center;
+}
+
+.imgResponsive {
+    max-width: 7%;
+    margin: 3.5% 5% 2% 4%;
+}
+
+.modalContentDeleteIdea button{
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    color:  #ff4081;
+    margin-right: 4%;
+}
+.modalContentDeleteIdea button:hover{
+    box-shadow:0  5px 6px 8px  rgba(249, 144, 144, 0.1);
+}
+
+
+/* modal add event  */
+
+.addModal{
+background-color: none;
+}
+
+.modalAddEvent {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(143, 106, 106, 0.4);
+    z-index: 1;
+}
+
+.labelAddEvent {
+    min-width: 150px;
+}
+
+.createEventButtonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8%;
+}
+
+.createEventButton {
+    border: none; 
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 370px;
+    height: 38px;
+    color:  #ff4081;
+}
+
+.createEventButton:hover {
+
+    background-color:  #ff4081;
+    color: white;
+    box-shadow:0  5px 6px 8px  rgba(249, 144, 144, 0.1);
+
+}
+
+.modalBodyAddEvent {
+    width: 430px;
+    height: 320px;
+    background-color: white;    
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.createAddEventHeader{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-image: linear-gradient(195deg,#ec407a,#d81b60);
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid gray;
+    color: #e3effa;
+}
+
+.createAddEventHeader i{
+    color: #e3effa;
+    margin: 1% 0 0 1%;
+    cursor: pointer;
+}
+
+.createAddEvent {
+    font-size: 145%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.createAddEventContent {
+    position: absolute;
+    width: 100%;
+    padding-left: 7%;
+}
+
+
+.setDate h1{
+    margin-top: 17%;
+    font-size: 18px;
+    color: white;
+}
+
+
+.setDate > input{
+    min-width: 215px;
+    margin-bottom: 25px;
+}
+
+.overlayMessageModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(134, 81, 81, 0.4);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageModal {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    background-color: #FAE6E6;
+    border: 1px solid #FAE6E6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageModal button{
+    border-radius: 5px;
+    margin-top: 3%;
+    background-color: #d29e9e;
+    border: 1px solid #d29e9e;
+    width: 20%;
+
+}

@@ -1,0 +1,259 @@
+.grid {
+    flex-wrap: inherit;
+    width: 100%;
+    height: 140px;
+}
+
+.headerNavbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+.headerNavbarLeft {
+    width: 45%;
+    color: gray;
+}
+
+.headerNavbarPages {
+    width: 90%;
+
+}
+
+.headerNavbarItem {
+    margin-left: 10%;
+    display: flex;
+    color: gray;
+}
+
+.headerNavbarItem .btnDownload {
+    margin-left: 7%;
+    border: 1px solid #ff4081;
+    outline: #ff4081;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 160px;
+    height: 37px;
+    color: #ff4081;
+}
+
+.headerNavbarItem .btnDownload:hover {
+    box-shadow: 0 5px 6px 8px rgba(249, 144, 144, 0.1);
+}
+
+
+/* SideBar */
+.overlaySidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fadeIn linear 0.2s;
+}
+
+.sidebar {
+    position: sticky;
+    z-index: 2;
+    overflow: auto;
+    width: 260px;
+    max-width: 100%;
+    height: 690px;
+    margin: -9% 0 0 2%;
+    color: white;
+    background-image: linear-gradient(195deg, #42424a, #191919);
+    border-radius: 15px;
+    transform: translateX(-106%);
+    opacity: 0;
+    /*trong suoot*/
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.sidebarClose {
+    font-size: 1.4rem;
+    color: #666;
+    margin: 2%;
+    float: right;
+}
+
+.sidebarListAvt img {
+    margin: 11% 0 0 13%;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(47, 51, 51);
+}
+
+.sidebarListAvt label {
+    margin-left: 4%;
+}
+
+.line {
+    width: 90%;
+    background-color: aliceblue;
+    margin: 7% 0 0 6%;
+}
+
+.sidebarList {
+    margin: 5%;
+    display: block;
+    padding: 3%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.sidebarList li {
+    list-style: none;
+}
+
+.sidebarList a {
+    text-decoration: none
+}
+
+
+.sidebarList i::before {
+    margin-left: 90%;
+
+}
+
+.sidebarLink span {
+    margin-left: -2%;
+}
+
+
+.sidebarList:hover {
+    background-color: #ff4081;
+}
+
+.sidebarItem {
+    margin: 1% 0 0 11%;
+}
+
+.sidebarLink {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 8px;
+    font-size: 1rem;
+}
+
+.sidebarItem button {
+    background-color: transparent;
+    color: white;
+    /* Chọn màu chữ tùy ý */
+    border: none;
+    /* Xóa viền button */
+
+}
+
+
+
+.navbarInput:checked~.overlaySidebar {
+    display: block;
+}
+
+
+.navbarInput:checked~.sidebar {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.accDown,
+.sidebar,
+.sidebarList1,
+.headerNavItem {
+    display: none;
+}
+
+
+/* ForIpad */
+@media (max-width: 63.9375em) {
+
+    .headerNavbarRight,
+    .Leftcontainer {
+        display: none;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    .headerNavItem {
+        display: inline-block;
+        color: gray;
+        margin: 0px 62px;
+    }
+
+    .headerNavItem svg:hover {
+        color: #ff4081;
+        cursor: pointer;
+    }
+
+    .accountPages {
+        font-size: 15px;
+        margin: 12% 0 0 10%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+/* for Qac */
+.headerNavbarItem label {
+    margin-left: 70%;
+    width: 400px;
+}
+
+.accountQac img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.overlayMessageModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(134, 81, 81, 0.4);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageModal {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    background-color: #FAE6E6;
+    border: 1px solid #FAE6E6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageModal button{
+    border-radius: 5px;
+    margin-top: 3%;
+    background-color: #d29e9e;
+    border: 1px solid #d29e9e;
+    width: 20%;
+
+}

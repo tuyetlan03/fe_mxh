@@ -1,0 +1,115 @@
+.topTrending {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e3effa;
+}
+
+.sidebarCoponent>* {
+    margin-top: -20px;
+    height: 615px;
+}
+
+.cardTopTrending {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    display: flex;
+}
+
+.containTopTrending {
+    width: 100%;
+    height: 77.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trending {
+    width: 31%;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(162, 164, 164);
+    border-radius: 10px;
+    margin-left: 1.75%;
+    flex: 0 0 auto;
+}
+
+.trendingTop {
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.trendingTop h2 {
+    color: #344767;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.countTrending {
+    margin-top: 2%;
+}
+
+.countTrending i {
+    color: #0e30de;
+}
+
+.countTrending span {
+    color: #7b809a;
+    margin-left: 2%;
+}
+
+.topAccount {
+    padding: 4px;
+    display: flex;
+}
+
+.topAccount img {
+    width: 36px;
+    height: 36px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+.title {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+@media (max-width: 63.9375em) {
+    .trending {
+        width: 48%;
+        margin-top: 30px;
+
+    }
+
+    .topAccount {
+        padding: 4px 4px 4px 15px;
+        display: flex;
+    }
+
+    .containTopTrending {
+        margin-top: -3%;
+    }
+
+}
+
+
+
+@media (max-width: 46.1875em) {
+    .trending {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+.specificIdea:hover {
+    cursor: pointer;
+    background-color: #344767;
+    color: aliceblue;
+}

@@ -1,0 +1,67 @@
+.qacLeft{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    color: white;
+}
+.Leftcontainer{
+   width: 100%;
+   height: 93.5%;
+   margin: 8% 0 0 4%;
+   background-image: linear-gradient(195deg,#42424a,#191919);
+   border-radius: 15px;
+   color: white;
+}
+
+.qacimg{
+    width: 20%;
+    margin: 10% 0 0 38%;
+}
+.qacName{
+    font-weight: bold;
+    margin: 1% 0 0 9%;
+}
+
+.line{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 7% 0 0 6%;
+}
+
+.dbName{
+    margin: 1% 0 0 11%;
+
+}
+
+.lcategore{
+    width: 94%;
+    height: 9%;
+    margin-top: 5%;
+    margin-left: 3.5%;
+    display: block;
+    padding: 6%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lcategore a{
+    text-decoration: none;
+    color: white;
+}
+
+.lcategore:hover{
+    background-color:#ff4081 ;
+}
+
+.accountPages{
+    font-size: 15px;
+    margin: 10% 0 0 7%;
+}
+
+@media (max-width: 1023px) {
+    .Leftcontainer{
+        display: none;
+    }
+}

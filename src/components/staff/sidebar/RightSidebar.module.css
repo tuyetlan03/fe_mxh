@@ -1,0 +1,23 @@
+.rightSidebar {
+    position: fixed;
+    top: 55px;
+    right: 0;
+    width: 20%;
+    background: #ffffff;
+    padding: 6px 16px;
+    height: 100%;
+    box-shadow: 5px 0 30px rgba(0, 0, 0, .1);
+    transition: all .5s ease;
+    overflow: hidden;
+}
+
+.right_sidebar_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topLikeIdea, .topTrendingIdea, .topDisLikeIdea {
+    margin-left: 7%;
+    cursor: pointer;
+}

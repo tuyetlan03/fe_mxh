@@ -1,0 +1,101 @@
+.overlaySpecificIdea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(134, 81, 81, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalSpecificIdea {
+    margin-top: 30px;
+    width: 600px;
+    height: 700px;
+    background-color: rgb(253, 235, 235);
+    border-radius: 10px;
+}
+
+.headerSpecificIdea {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.labelSpecificIdea {
+    flex: 1;
+    text-align: center;
+}
+
+.bodySpecificIdea {
+    margin: 15px;
+}
+
+.userInformation {
+    display: flex;
+}
+
+.ideaContent {
+    margin: 15px 0;
+}
+
+.avatarSpecificIdea>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.titleSpecificIdea {
+    font-weight: bold;
+}
+
+
+.footerSpecificIdea {
+    margin: 0 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: scroll;
+}
+
+.commentLabel {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.listCommentsSpecificIdea {
+    display: flex;
+    margin: 8px 0;
+}
+
+.avatarComment>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.commentUserNameAndContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentUserName {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.closeCommentModal {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
